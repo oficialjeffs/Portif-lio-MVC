@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+html, body{
+    
+    font-family: Ubuntu, Arial;
+    width: 100%;
+    height: 100%;
+    
+}
+#header{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #021124;
+    overflow-y: auto; /*Gera o Scroll e não deixa o conteúdo ser cortado*/
+    width: 300px;
+    transition: all ease-in-out 0.5s; /*Transição para quando for esconder o menu*/
+    padding: 0 15px; 
+    z-index: 9997;
+
+}
+
+#header .profile img{
+   
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+    border-radius: 50%; /*Deixará a imagem redonda*/
+
+}
+
+#header .profile h1{
+    
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    
+}
+#header .profile .social-links a{
+
+    font-size: 1rem;
+    background: #212431;
+    color: #fff;
+    padding: 0.6rem;
+    margin-right: 1rem;
+    border-radius: 50%; /*Deixará a imagem redonda*/
+    transition: 0.3s; /*Tempo de transição do efeito background*/
+    text-decoration: none; /*Tira toda decoração de um link padrão*/
+
+}
+
+#header .profile .social-links a:hover{
+    
+    background: #149ddd ;/*Ao passar do mouse gerará esta cor*/
+
+}
+
+.nav-menu{
+    
+    padding: 1.5rem;
+
+}
+
+.nav-menu a,
+.nav-menu a:focus{  /* edção do menu*/
+
+    display: flex;
+    align-items: center;
+    color: #a8a9b4;
+    transition: 0.3s;
+    font-size: 15px;
+    
+}
+
+.nav-menu a i,
+.nav-menu a:focus i{
+
+    font-size: 24px;
+    padding-right: 0.8rem;
+    color: #6f7180;
+
+}
+
+.nav-menu a:hover,
+.nav-menu .active,
+.nav-menu .active:focus,
+.nav-menu li:hover > a { /*EFEITO ao passar o mouse*/
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.nav-menu a:hover i,
+.nav-menu .active i,
+.nav-menu .active:focus i,
+.nav-menu li:hover > a i {
+
+    color: #149ddd;
+
+}
+
+
+
+
+#main{
+
+    margin-left: 300px;
+
+}
+
+section#inicio{
+
+    background-image: url(./img/banner1.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    background-blend-mode: multiply; /*multiply, darken, lighten*/
+    background-color: rgba(89, 236, 247, 0.445) ;
+    
+    width: 100%;
+    height: 100vh;
+
+}
+
+section#inicio h2{
+
+    font-size: 6rem;
+
+}
+
+section#inicio span#subtitle{
+
+    margin-right: 8rem;
+    font-size: 1.5rem;
+
+}
+
+.text-shadow{
+
+    text-shadow: 4px 4px 10px #000000; /* Sombras de texto*/
+
+}
+
+section#inicio div#arraste{ /*Estilizar a div Arraste*/
+    
+    width: 9rem;
+
+}
+
+section#inicio div#arraste a{ /*Estilizar o link da div Arraste*/
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+i.menu-mobile{ /*Menu Responsivo*/
+
+    position: fixed;
+    color: #fff;
+/*  background-color: #252c90;  */
+    background-color: #000000;
+    right: 1rem;
+    top: 1rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    width: 45px;
+    height: 45px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu-nav-active{
+
+    overflow: hidden;
+
+}
+
+.menu-nav-active #header{
+    left: 0;
+}
+
+
+
+@media(max-width: 1024px){ /*Responsividade*/
+
+    #header {
+
+        left: -300px;
+
+    }
+
+    i.menu-mobile{
+        
+        display: flex;
+
+    }
+
+    section#inicio h2{
+    
+        font-size: 3.5rem;
+    
+    }
+
+    section#inicio span#subtitle{
+        
+        margin-right: 0;
+        font-size: 1rem;
+
+    }
+
+    #main{
+
+        margin-left: 0;
+    
+    }
+} 
+
+
+/*Estilização da barra de rolagem*/
+*::-webkit-scrollbar{
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track{
+
+    width: 12px;
+    box-shadow: inset 0 0 .3rem #00000050;
+    background-color: #fff;
+
+}
+
+*::-webkit-scrollbar-thumb{
+
+    background-color: #021124;
+
+}
+
+.img-fluid {
+    border-radius: 50%;
+}
+
+/*Habilidades*/
+.section-bg{
+
+    background-color: #eff5ff; /*Plano de fundo da seção Habilidades*/
+
+}
