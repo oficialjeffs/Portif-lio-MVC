@@ -314,3 +314,45 @@ i.menu-mobile{ /*Menu Responsivo*/
     border-radius: 50%;
 
 }
+
+
+/*Carrosel*/
+.carousel-control-prev{
+    
+    margin-left: -8rem;
+    border: 1px ;
+    
+}
+.carousel-control-next{
+    
+    margin-right: -8rem;
+    border: 1px ;
+    
+}
+
+.carousel-indicators{
+
+    margin-bottom: -40px;
+
+}
+
+.carousel-indicators{
+
+    margin-top: -40px;
+
+}
+/* solução para botão nas margens
+@media (width: 1860px){
+    .carousel-control-prev{
+    
+        margin-left: 0;
+        border: 1px solid black;
+    }
+    .carousel-control-next{
+        
+        margin-right: 0;
+        border: 1px solid black;
+    }
+}
+
+*/
