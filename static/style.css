@@ -255,6 +255,7 @@ i.menu-mobile{ /*Menu Responsivo*/
 /*Habilidades*/
 .img-fluid {
     border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 
@@ -320,35 +321,36 @@ i.menu-mobile{ /*Menu Responsivo*/
 
 .carousel-control-prev{
     
-    margin-left: -5rem;
+    left: 6.5rem;
+    margin-left: -8rem;
+    border: 1px solid black;
+    width: 25px;
     
-    width: 45px;
 }
 .carousel-control-next{
     
-    margin-right: -5rem;
-    
-    width: 45px;
+    right: 6.5rem;
+    margin-right: -8rem;
+    border: 1px solid red;
+    width: 25px;
 }
 
 .carousel-indicators{
 
-    margin-bottom: -40px;
+    margin-bottom: -35px;
     
 
 }
-
-
-
+/*Correção de margem e menu causado pela margem dos indicadores do carrosel*/
 @media (width: 1860px){
     .carousel-control-prev{
     
         margin-left: 0;
-        border: 1px solid black;
+        
     }
     .carousel-control-next{
         
         margin-right: 0;
-        border: 1px solid black;
+    
     }
 }
