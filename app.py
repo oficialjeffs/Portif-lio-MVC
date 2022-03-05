@@ -15,7 +15,7 @@ mail_settings={
     "MAIL_USE_TLS": False,
     "MAIL_USE_SSL": True,
     "MAIL_USERNAME": email,
-    "Mail_PASSWORD": mail_senha
+    "Mail_PASSWORD": senha
 
 }
 
@@ -35,7 +35,7 @@ class Contato:
 def index():
     return render_template('index.html')
 
-app.route('/send'; methods=['GET', 'POST'])
+app.route('/send', methods=['GET', 'POST'])
 def send():
     if request.method=='POST':
         formContato = Contato(
@@ -47,7 +47,7 @@ def send():
         msg = Menssage(
             subject = f'{formContato.nome} te enviou uma mensagem no Portfólio',
             sender = app.config.ger("MAIL_USERNAME"),
-            recipients = ['contatojeffdeveloper@gmail.com']
+            recipients = ['contatojeffdeveloper@gmail.com'],
             body = f'''
 
             {formContato.nome} com o e-mail {formContato.email}, te enviou a seguinte mensagem:
