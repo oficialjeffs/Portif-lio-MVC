@@ -323,16 +323,16 @@ i.menu-mobile{ /*Menu Responsivo*/
     
     left: 6.5rem;
     margin-left: -8rem;
-    border: 1px solid black;
-    width: 25px;
+    
+    width: 20px;
     
 }
 .carousel-control-next{
     
     right: 6.5rem;
     margin-right: -8rem;
-    border: 1px solid red;
-    width: 25px;
+   
+    width: 20px;
 }
 
 .carousel-indicators{
