@@ -46,7 +46,7 @@ def send():
         
         msg = Menssage(
             subject = f'{formContato.nome} te enviou uma mensagem no Portfólio',
-            sender = app.config.ger("MAIL_USERNAME"),
+            sender = app.config.get("MAIL_USERNAME"),
             recipients = ['contatojeffdeveloper@gmail.com'],
             body = f'''
 
