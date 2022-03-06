@@ -319,6 +319,13 @@ i.menu-mobile{ /*Menu Responsivo*/
 
 /*Carrosel*/
 
+.cardport{
+    
+    background:#ffffff
+   
+    
+}
+
 .carousel-control-prev{
     
     left: 6.5rem;
