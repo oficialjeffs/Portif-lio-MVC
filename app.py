@@ -20,7 +20,7 @@ mail_settings={
     "MAIL_PASSWORD": os.getenv("SENHA")
 
 }
-
+ 
 app.config.update(mail_settings)
 
 mail= Mail(app)
