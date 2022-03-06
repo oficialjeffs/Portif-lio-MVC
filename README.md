@@ -1,7 +1,7 @@
 ## Portfólio Responsivo
+para ver o resultado final do deploy do projeto acesse a qualquer momento: https://jeffdeveloper.herokuapp.com/#contato
 
-
-## Sobre
+## Sobre:
 
 <p>Criei este Portfólio com objetivo de facilitar comunicação e interação de empresas e clientes comigo.    
 Nele explico um pouco sobre minha pessoa, meus Soft's Skills e Hard's Skills, Falo sobre minha visão, objetivos, e também incluo um currículo resumido para as empresas verem minhas experiencias profissionais e estudantis.</p>
@@ -9,7 +9,7 @@ Nele explico um pouco sobre minha pessoa, meus Soft's Skills e Hard's Skills, Fa
 <p>Além disso inclui  uma seção de portfólio com algums dos projetos que já Participei/ estudei ou Criei.
 Assim todos podem observar e interagir com aplicações que ja criei.</p>
 
-  ## Layout do Projeto
+  ## Layout do Projeto:
 
   <div>
      <img alt="Jeff-Dev-Home" src="https://media.discordapp.net/attachments/705264408103878808/950113648062398484/unknown.png?width=828&height=466" style= "object-fit:    contain;       width: 450px; height: auto; " >
@@ -21,7 +21,7 @@ Assim todos podem observar e interagir com aplicações que ja criei.</p>
   
   </div>
   
-  ## Tecnologias Utilizadas
+  ## Tecnologias Utilizadas:
   <ul>
     <h4> Front End</h4>
     <hr>
@@ -33,14 +33,15 @@ Assim todos podem observar e interagir com aplicações que ja criei.</p>
     <hr>
     <h4> Back End</h4>
     <li>Python - Criação do server LocalHost e api para enviar Email e menssagem</li>
-   
   </ul>
   
-  # Autor
+  # Autor:
   <strong>Jefferson Santos</strong> <br>
   <br>
   <strong>Linkedin:</strong> https://www.linkedin.com/in/oficialjeffs/ <br>
+  <strong>Instagram:</strong> https://www.instagram.com/oficialjeffs/ <br>
   <strong>Portfólio:</strong> https://jeffdeveloper.herokuapp.com/#contato <br>
-  <strong>Email:</strong> contatojeffdeveloper@gmail.com                                  
+  <strong>Email:</strong> contatojeffdeveloper@gmail.com
+  
                                    
   
