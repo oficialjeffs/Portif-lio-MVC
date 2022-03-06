@@ -68,7 +68,7 @@ html, body{
 }
 
 .nav-menu a,
-.nav-menu a:focus{  /* edção do menu*/
+.nav-menu a:focus{  /* edição do menu*/
 
     display: flex;
     align-items: center;
