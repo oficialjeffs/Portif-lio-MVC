@@ -10,12 +10,12 @@ app= Flask(__name__)
 app.secret_key='jeffcode'
 
 mail_settings={
-    "MAIL_SERVER":'smtp.gmail.com',
+    "MAIL_SERVER": 'smtp.gmail.com',
     "MAIL_PORT": 465,
     "MAIL_USE_TLS": False,
     "MAIL_USE_SSL": True,
     "MAIL_USERNAME": email,
-    "Mail_PASSWORD": senha
+    "MAIL_PASSWORD": senha,
 
 }
 
@@ -25,29 +25,27 @@ mail= Mail(app)
 
 class Contato:
     def __init__(self, nome, email, mensagem):
-        self.nome = nome,
-        self.email = email,
+        self.nome = nome
+        self.email = email
         self.mensagem = mensagem
-
-
 
 @app.route('/')
 def index():
     return render_template('index.html')
 
-app.route('/send', methods=['GET', 'POST'])
+@app.route('/send', methods=['GET', 'POST'])
 def send():
-    if request.method=='POST':
+    if request.method == 'POST':
         formContato = Contato(
             request.form["nome"],
             request.form["email"],
             request.form["mensagem"]
         )
         
-        msg = Menssage(
+        msg = Message(
             subject = f'{formContato.nome} te enviou uma mensagem no Portfólio',
             sender = app.config.get("MAIL_USERNAME"),
-            recipients = ['contatojeffdeveloper@gmail.com', app.config.get("MAIL_USERNAME")],
+            recipients = ['jeffsantospersonal2@gmail.com', app.config.get("MAIL_USERNAME")],
             body = f'''
 
             {formContato.nome} com o e-mail {formContato.email}, te enviou a seguinte mensagem:
