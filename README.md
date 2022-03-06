@@ -11,13 +11,13 @@ Assim todos podem observar e interagir com aplicações que ja criei.</p>
 
   ## Layout do projeto
 
-  <div style="width: 100px; height: 100px;">
-    <img alt="Jeff-Dev-Home" src="https://media.discordapp.net/attachments/705264408103878808/950113648062398484/unknown.png?width=828&height=466">
-    <img alt="Jeff-Dev-Sobre" src="https://media.discordapp.net/attachments/705264408103878808/950113774998790174/unknown.png?width=828&height=366">
-    <img alt="Jeff-Dev-Habilidades" src="https://media.discordapp.net/attachments/705264408103878808/950113850496270336/unknown.png?width=828&height=366">
-    <img alt="Jeff-Dev-Currículo" src="https://media.discordapp.net/attachments/705264408103878808/950113887989166190/unknown.png?width=828&height=366">
-    <img alt="Jeff-Dev-Portfólio" src="https://media.discordapp.net/attachments/705264408103878808/950113926442541086/unknown.png?width=828&height=366">
-    <img alt="Jeff-Dev-Contato" src="https://media.discordapp.net/attachments/705264408103878808/950113970344316928/unknown.png?width=828&height=366">
+  <div> 
+    <img alt="Jeff-Dev-Home" src="https://media.discordapp.net/attachments/705264408103878808/950113648062398484/unknown.png?width=828&height=466" style= "object-fit: contain;       width: 500px; height: auto;">
+    <img alt="Jeff-Dev-Sobre" src="https://media.discordapp.net/attachments/705264408103878808/950113774998790174/unknown.png?width=828&height=466" style= "object-fit: contain;       width: 500px; height: auto;">
+    <img alt="Jeff-Dev-Habilidades" src="https://media.discordapp.net/attachments/705264408103878808/950113850496270336/unknown.png?width=828&height=466" style= "object-fit: contain;       width: 500px; height: auto;">
+    <img alt="Jeff-Dev-Currículo" src="https://media.discordapp.net/attachments/705264408103878808/950113887989166190/unknown.png?width=828&height=466" style= "object-fit: contain;       width: 500px; height: auto;">
+    <img alt="Jeff-Dev-Portfólio" src="https://media.discordapp.net/attachments/705264408103878808/950113926442541086/unknown.png?width=828&height=466" style= "object-fit: contain;       width: 500px; height: auto;">
+    <img alt="Jeff-Dev-Contato" src="https://media.discordapp.net/attachments/705264408103878808/950113970344316928/unknown.png?width=828&height=466" style= "object-fit: contain;       width: 500px; height: auto;">
   
   </div>
   
