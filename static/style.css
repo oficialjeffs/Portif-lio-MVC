@@ -349,6 +349,9 @@ i.menu-mobile {
 .borda-contato button svg {
   margin-right: 1rem;
 }
+.borda-contato a {
+  text-decoration: none;
+}
 /*Animação*/
 
 [data-anime] {
