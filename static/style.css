@@ -303,6 +303,52 @@ i.menu-mobile {
 .carousel-indicators {
   margin-bottom: -35px;
 }
+/*Contato*/
+.borda-contato {
+  background-color: #fff;
+  width: 48rem;
+  max-height: 29.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.borda-contato h3 {
+  margin-bottom: 5rem;
+}
+.infos-add {
+  min-width: 30.2rem;
+  height: 15.5rem;
+  left: 6.1rem;
+  top: 9.4rem;
+}
+
+.email {
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.email svg {
+  margin-right: 1rem;
+}
+.email h6 {
+  font-family: Ubuntu, Arial;
+  font-weight: 380;
+  font-size: larger;
+}
+.borda-contato button {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 17rem;
+  font-size: 1.3rem;
+  border-radius: 1.6rem;
+  color: #fff;
+  background-color: #00856f;
+}
+.borda-contato button svg {
+  margin-right: 1rem;
+}
 /*Animação*/
 
 [data-anime] {
